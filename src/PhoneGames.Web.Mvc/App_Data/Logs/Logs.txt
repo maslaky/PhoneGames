@@ -1,0 +1,827 @@
+DEBUG 2020-01-31 23:40:59,676 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-31 23:40:59,895 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-31 23:40:59,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.Web.Startup.PhoneGamesWebMvcModule, PhoneGames.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesWebCoreModule, PhoneGames.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesApplicationModule, PhoneGames.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesCoreModule, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.EntityFrameworkCore.PhoneGamesEntityFrameworkModule, PhoneGames.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:40:59,916 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-31 23:41:00,086 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:41:00,086 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:41:00,086 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneGames (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:41:00,086 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:41:00,633 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PhoneGames.EntityFrameworkCore.PhoneGamesDbContext, PhoneGames.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:41:01,401 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-31 23:41:01,485 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-31 23:41:01,560 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-31 23:41:01,590 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneGames
+DEBUG 2020-01-31 23:41:01,641 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-31 23:41:01,808 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-31 23:41:01,926 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[PhoneGames.MultiTenancy.Tenant, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PhoneGames.Authorization.Users.User, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-31 23:41:01,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2020-01-31 23:41:01,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-31 23:41:01,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Users.Dto.CreateUserDto
+DEBUG 2020-01-31 23:41:01,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Users.Dto.UserDto
+DEBUG 2020-01-31 23:41:01,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-31 23:41:01,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-31 23:41:01,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Roles.Dto.PermissionDto
+DEBUG 2020-01-31 23:41:01,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-31 23:41:01,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.MultiTenancy.Dto.TenantDto
+DEBUG 2020-01-31 23:41:01,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Business.Questions.QuestionDto
+DEBUG 2020-01-31 23:41:01,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-01-31 23:41:01,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Web.Models.Roles.EditRoleModalViewModel
+WARN  2020-01-31 23:41:26,065 [11   ] Abp.BackgroundJobs.BackgroundJobManager  - Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Nie można odnaleźć określonego pliku.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Context()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.<GetQueryable>b__7_0(Type key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetQueryable()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAll()
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobs(Int32 maxResultCount)
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs_callback(Int32 maxResultCount)
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobs.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Nie można odnaleźć określonego pliku.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Context()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.<GetQueryable>b__7_0(Type key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetQueryable()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAll()
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobs(Int32 maxResultCount)
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs_callback(Int32 maxResultCount)
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobs.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+FATAL 2020-01-31 23:41:26,069 [1    ] Abp.AbpBootstrapper                      - Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Nie można odnaleźć określonego pliku.
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at PhoneGames.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at PhoneGames.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at PhoneGames.EntityFrameworkCore.PhoneGamesEntityFrameworkModule.PostInitialize() in C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.EntityFrameworkCore\EntityFrameworkCore\PhoneGamesEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Nie można odnaleźć określonego pliku.
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at PhoneGames.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at PhoneGames.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at PhoneGames.EntityFrameworkCore.PhoneGamesEntityFrameworkModule.PostInitialize() in C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.EntityFrameworkCore\EntityFrameworkCore\PhoneGamesEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+DEBUG 2020-01-31 23:47:12,921 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-31 23:47:13,001 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-31 23:47:13,019 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.Web.Startup.PhoneGamesWebMvcModule, PhoneGames.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,020 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesWebCoreModule, PhoneGames.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,020 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesApplicationModule, PhoneGames.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,021 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesCoreModule, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,021 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,021 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,021 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,021 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,022 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.EntityFrameworkCore.PhoneGamesEntityFrameworkModule, PhoneGames.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,022 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,022 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,022 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,022 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,023 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,023 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:13,025 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-31 23:47:13,084 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:47:13,084 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:47:13,084 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneGames (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:47:13,084 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:47:13,387 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PhoneGames.EntityFrameworkCore.PhoneGamesDbContext, PhoneGames.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:47:14,054 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-31 23:47:14,125 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-31 23:47:14,199 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-31 23:47:14,228 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneGames
+DEBUG 2020-01-31 23:47:14,279 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-31 23:47:14,441 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-31 23:47:14,542 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[PhoneGames.MultiTenancy.Tenant, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PhoneGames.Authorization.Users.User, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-31 23:47:14,592 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2020-01-31 23:47:14,592 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-31 23:47:14,596 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Users.Dto.CreateUserDto
+DEBUG 2020-01-31 23:47:14,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Users.Dto.UserDto
+DEBUG 2020-01-31 23:47:14,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-31 23:47:14,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-31 23:47:14,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Roles.Dto.PermissionDto
+DEBUG 2020-01-31 23:47:14,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-31 23:47:14,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.MultiTenancy.Dto.TenantDto
+DEBUG 2020-01-31 23:47:14,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Business.Questions.QuestionDto
+DEBUG 2020-01-31 23:47:14,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-01-31 23:47:14,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-01-31 23:47:42,357 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-01-31 23:47:42,792 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Maciolek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-01-31 23:47:42,941 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2020-01-31 23:47:43,112 [11   ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-01-31 23:47:43,118 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-01-31 23:47:43,124 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 184.3811ms 302 
+INFO  2020-01-31 23:47:43,144 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/Account/Login?ReturnUrl=%2F  
+INFO  2020-01-31 23:47:43,151 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:47:46,271 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller PhoneGames.Web.Controllers.AccountController (PhoneGames.Web.Mvc).
+INFO  2020-01-31 23:47:48,752 [8    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-01-31 23:47:49,775 [8    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 1026.6589ms.
+INFO  2020-01-31 23:47:49,778 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc) in 3505.3398ms
+INFO  2020-01-31 23:47:49,781 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:47:49,803 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6657.4256ms 200 text/html; charset=utf-8
+INFO  2020-01-31 23:47:49,838 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+INFO  2020-01-31 23:47:49,847 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css?v=fmMNkMcjSw3xcp9iuPnku_ryk9kaWgrEbfJfKmdZ45o  
+INFO  2020-01-31 23:47:49,849 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+INFO  2020-01-31 23:47:49,853 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/font-awesome/css/font-awesome.css?v=NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w  
+INFO  2020-01-31 23:47:49,856 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+INFO  2020-01-31 23:47:49,857 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2020-01-31 23:47:49,881 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2020-01-31 23:47:49,882 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\toastr\toastr.css'
+INFO  2020-01-31 23:47:49,882 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/roboto.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\fonts\roboto\roboto.css'
+INFO  2020-01-31 23:47:49,886 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\fonts\material-icons\materialicons.css'
+INFO  2020-01-31 23:47:49,888 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.0002ms 200 text/css
+INFO  2020-01-31 23:47:49,890 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.4996ms 200 text/css
+INFO  2020-01-31 23:47:49,892 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.829ms 200 text/css
+INFO  2020-01-31 23:47:49,894 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 42.171ms 200 text/css
+INFO  2020-01-31 23:47:49,895 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/css/style.css?v=151KUrNx-cFGpjXC7QZ8WbWSo-mQTLO0htvGyBUR_i8  
+INFO  2020-01-31 23:47:49,897 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2020-01-31 23:47:49,898 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2020-01-31 23:47:49,902 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+INFO  2020-01-31 23:47:49,905 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\Waves\dist\waves.css'
+INFO  2020-01-31 23:47:49,907 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/materialize.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\css\materialize.css'
+INFO  2020-01-31 23:47:49,909 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2020-01-31 23:47:49,911 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.4539ms 200 text/css
+INFO  2020-01-31 23:47:49,913 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.9082ms 200 text/css
+INFO  2020-01-31 23:47:49,915 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 63.7958ms 200 text/css
+INFO  2020-01-31 23:47:49,920 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js?v=DZAnKJ_6XZ9si04Hgrsxu_8s717jcIzLy3oi35EouyE  
+INFO  2020-01-31 23:47:49,922 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/animate.css/animate.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\animate.css\animate.css'
+INFO  2020-01-31 23:47:49,924 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Account/_Layout.css?v=vIEtxnpR3ZrYbYcueRr_mJ9XuJJzDprh4sMCwvRBcqk  
+INFO  2020-01-31 23:47:49,926 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2020-01-31 23:47:49,927 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 34.3451ms 200 text/css
+INFO  2020-01-31 23:47:49,929 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-01-31 23:47:49,930 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.js?v=Cr6N6zNN4bp0OwTQOZ6Z66M2r-2dpy_EwKMCyZ-SOMg  
+INFO  2020-01-31 23:47:49,937 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 37.7892ms 200 text/css
+INFO  2020-01-31 23:47:49,940 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2020-01-31 23:47:49,941 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+INFO  2020-01-31 23:47:49,943 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.0458ms 200 text/css
+INFO  2020-01-31 23:47:49,945 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\json2\json2.js'
+INFO  2020-01-31 23:47:49,947 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2020-01-31 23:47:49,951 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2020-01-31 23:47:49,953 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32.2298ms 200 application/javascript
+INFO  2020-01-31 23:47:49,956 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 97.1098ms 200 text/css
+INFO  2020-01-31 23:47:49,958 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-01-31 23:47:49,960 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2020-01-31 23:47:49,963 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Account/Login.css?v=j_16MTiQNlUrKdjTrCjLCSGkIIjHvt8tFUyucW02Vqw  
+INFO  2020-01-31 23:47:49,986 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.279ms 200 application/javascript
+INFO  2020-01-31 23:47:49,990 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2020-01-31 23:47:49,993 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2020-01-31 23:47:49,995 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2020-01-31 23:47:50,001 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 80.9202ms 200 application/javascript
+INFO  2020-01-31 23:47:50,003 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 47.3747ms 200 application/javascript
+INFO  2020-01-31 23:47:50,007 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2020-01-31 23:47:50,009 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2020-01-31 23:47:50,013 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+INFO  2020-01-31 23:47:50,016 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\toastr\toastr.js'
+INFO  2020-01-31 23:47:50,019 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.7046ms 200 application/javascript
+INFO  2020-01-31 23:47:50,023 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.0855ms 200 application/javascript
+INFO  2020-01-31 23:47:50,026 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\spin.js\spin.js'
+INFO  2020-01-31 23:47:50,029 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2020-01-31 23:47:50,033 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.min.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\sweetalert\dist\sweetalert.min.js'
+INFO  2020-01-31 23:47:50,037 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=mLVaqTdgmMkoUuTaMxkIT7FgiZPW2P-xdBb4DkRpaLg  
+INFO  2020-01-31 23:47:50,041 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.0324ms 200 application/javascript
+INFO  2020-01-31 23:47:50,043 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28.2135ms 200 application/javascript
+INFO  2020-01-31 23:47:50,044 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2020-01-31 23:47:50,047 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=dszx0Rlkfh-sesXfVgzFwj2P6eXRPLA9cT64qMtAkG4  
+INFO  2020-01-31 23:47:50,050 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=AIxxwaH93t7AYkWS4FNTrN_L5q-wzWUsYG570rq1Y8k  
+INFO  2020-01-31 23:47:50,054 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.1699ms 200 application/javascript
+INFO  2020-01-31 23:47:50,057 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2020-01-31 23:47:50,059 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2020-01-31 23:47:50,061 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.2829ms 200 application/javascript
+INFO  2020-01-31 23:47:50,063 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2020-01-31 23:47:50,066 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2020-01-31 23:47:50,071 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.3014ms 200 application/javascript
+INFO  2020-01-31 23:47:50,075 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2020-01-31 23:47:50,077 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.5389ms 200 application/javascript
+INFO  2020-01-31 23:47:50,079 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/js/admin.js?v=_sUixSUZcmP81slFpHh9ygZ5nNihdHlHLkpoSCncHCw  
+INFO  2020-01-31 23:47:50,081 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=2VvE8Jbf50Cd7Yd-VlY2oYUZTfdiP1SAvURmx87Ri_Q  
+INFO  2020-01-31 23:47:50,083 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2020-01-31 23:47:50,088 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2020-01-31 23:47:50,089 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 136.9123ms 200 application/javascript
+INFO  2020-01-31 23:47:50,093 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32.1513ms 200 application/javascript
+INFO  2020-01-31 23:47:50,097 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\view-resources\Views\Account\Login.css'
+INFO  2020-01-31 23:47:50,101 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/js/main.js?v=iBvXTJpqherRadHUVLlTzdL0_pbD0-cWq4WR3Dzc1Ck  
+INFO  2020-01-31 23:47:50,104 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/admin.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\js\admin.js'
+INFO  2020-01-31 23:47:50,108 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2020-01-31 23:47:50,111 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2020-01-31 23:47:50,119 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637161112345434137  
+INFO  2020-01-31 23:47:50,119 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.287ms 200 application/javascript
+INFO  2020-01-31 23:47:50,123 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 143.6174ms 200 text/css
+INFO  2020-01-31 23:47:50,127 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.9296ms 200 application/javascript
+INFO  2020-01-31 23:47:50,129 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.4606ms 200 application/javascript
+INFO  2020-01-31 23:47:50,137 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+INFO  2020-01-31 23:47:50,139 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\js\main.js'
+INFO  2020-01-31 23:47:50,140 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Account/Login.js?v=o2PUQBkwW7VjtzD5RNxKPa3oShr3fMFHds_2dwIAV5M  
+INFO  2020-01-31 23:47:50,142 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637161112345434137  
+INFO  2020-01-31 23:47:50,145 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637161112697688155  
+INFO  2020-01-31 23:47:50,147 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48.2017ms 200 application/javascript
+INFO  2020-01-31 23:47:50,154 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-01-31 23:47:50,156 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+INFO  2020-01-31 23:47:50,159 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\Waves\dist\waves.js'
+INFO  2020-01-31 23:47:50,162 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2020-01-31 23:47:50,163 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-31 23:47:50,166 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.4095ms 200 application/javascript
+INFO  2020-01-31 23:47:50,170 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.9401ms 200 application/javascript
+INFO  2020-01-31 23:47:50,175 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.5943ms 200 application/javascript
+INFO  2020-01-31 23:47:50,176 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+INFO  2020-01-31 23:47:50,180 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-31 23:47:50,184 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-01-31 23:47:50,189 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/fonts/material-icons/materialicons.woff2  
+INFO  2020-01-31 23:47:50,191 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\fonts\roboto\CWB0XYA8bzo0kSThX0UTuA.woff2'
+INFO  2020-01-31 23:47:50,199 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 42.3208ms 200 font/woff2
+INFO  2020-01-31 23:47:50,201 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\fonts\roboto\d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'
+INFO  2020-01-31 23:47:50,212 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32.1986ms 200 font/woff2
+INFO  2020-01-31 23:47:50,219 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2020-01-31 23:47:50,223 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.woff2'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\fonts\material-icons\materialicons.woff2'
+INFO  2020-01-31 23:47:50,226 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.2377ms 200 image/png
+INFO  2020-01-31 23:47:50,229 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.5336ms 200 font/woff2
+INFO  2020-01-31 23:47:50,232 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-31 23:47:50,236 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-31 23:47:50,361 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-31 23:47:50,363 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 129.1067ms
+INFO  2020-01-31 23:47:50,366 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-31 23:47:50,369 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 265.9877ms 200 application/x-javascript
+INFO  2020-01-31 23:47:50,495 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-31 23:47:50,498 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 258.9758ms
+INFO  2020-01-31 23:47:50,501 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-31 23:47:50,505 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 370.5727ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-31 23:47:50,525 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+INFO  2020-01-31 23:47:50,533 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\favicon.ico'
+INFO  2020-01-31 23:47:50,536 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.2371ms 200 image/x-icon
+INFO  2020-01-31 23:47:55,650 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-01-31 23:47:55,656 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:47:55,666 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(PhoneGames.Web.Models.Account.LoginViewModel, System.String, System.String) on controller PhoneGames.Web.Controllers.AccountController (PhoneGames.Web.Mvc).
+INFO  2020-01-31 23:47:57,841 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-01-31 23:47:57,844 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:47:57,850 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(PhoneGames.Web.Models.Account.LoginViewModel, System.String, System.String) on controller PhoneGames.Web.Controllers.AccountController (PhoneGames.Web.Mvc).
+INFO  2020-01-31 23:48:00,844 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/Account/Login application/x-www-form-urlencoded 272
+INFO  2020-01-31 23:48:00,848 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:48:00,856 [36   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(PhoneGames.Web.Models.Account.LoginViewModel, System.String, System.String) on controller PhoneGames.Web.Controllers.AccountController (PhoneGames.Web.Mvc).
+INFO  2020-01-31 23:48:02,290 [8    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-01-31 23:48:03,016 [10   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-31 23:48:03,027 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc) in 7357.8318ms
+INFO  2020-01-31 23:48:03,031 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:48:03,035 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7385.0044ms 200 application/json; charset=utf-8
+INFO  2020-01-31 23:48:03,051 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2020-01-31 23:48:03,096 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-31 23:48:03,098 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Controllers.HomeController.Index (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:48:03,103 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller PhoneGames.Web.Controllers.HomeController (PhoneGames.Web.Mvc).
+INFO  2020-01-31 23:48:03,307 [4    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-01-31 23:48:03,340 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-01-31 23:48:03,406 [8    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-31 23:48:03,408 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc) in 5555.7721ms
+INFO  2020-01-31 23:48:03,410 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:48:03,412 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5572.9443ms 200 application/json; charset=utf-8
+INFO  2020-01-31 23:48:03,420 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2020-01-31 23:48:03,426 [8    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-31 23:48:03,428 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Controllers.HomeController.Index (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:48:03,431 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller PhoneGames.Web.Controllers.HomeController (PhoneGames.Web.Mvc).
+INFO  2020-01-31 23:48:03,560 [14   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-01-31 23:48:03,607 [8    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-01-31 23:48:03,657 [4    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-31 23:48:03,659 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc) in 2801.1997ms
+INFO  2020-01-31 23:48:03,662 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:48:03,665 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2822.0618ms 200 application/json; charset=utf-8
+INFO  2020-01-31 23:48:03,675 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2020-01-31 23:48:03,682 [9    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-01-31 23:48:03,687 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Controllers.HomeController.Index (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:48:03,691 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller PhoneGames.Web.Controllers.HomeController (PhoneGames.Web.Mvc).
+INFO  2020-01-31 23:48:03,915 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-01-31 23:48:08,762 [36   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 5422.0821ms.
+INFO  2020-01-31 23:48:08,764 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 5154.5979ms.
+INFO  2020-01-31 23:48:08,766 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 4846.993ms.
+INFO  2020-01-31 23:48:08,772 [36   ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Controllers.HomeController.Index (PhoneGames.Web.Mvc) in 5665.1249ms
+INFO  2020-01-31 23:48:08,774 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Controllers.HomeController.Index (PhoneGames.Web.Mvc) in 5336.8981ms
+INFO  2020-01-31 23:48:08,781 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Controllers.HomeController.Index (PhoneGames.Web.Mvc) in 5076.5146ms
+INFO  2020-01-31 23:48:08,787 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Controllers.HomeController.Index (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:48:08,791 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Controllers.HomeController.Index (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:48:08,795 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Controllers.HomeController.Index (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:48:08,799 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5745.7876ms 200 text/html; charset=utf-8
+INFO  2020-01-31 23:48:08,810 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5126.5828ms 200 text/html; charset=utf-8
+INFO  2020-01-31 23:48:08,812 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5380.4607ms 200 text/html; charset=utf-8
+INFO  2020-01-31 23:48:08,816 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/images/user.png  
+INFO  2020-01-31 23:48:08,820 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-select/dist/css/bootstrap-select.css?v=a7N4Jki3LzSbThclvqbu4nF45twcjuc772JGFhY9qwk  
+INFO  2020-01-31 23:48:08,823 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/css/themes/all-themes.css?v=XaAlkmhL9gA6mBxpcxGYAWxggxkIpRmT9qGbKejs6eA  
+INFO  2020-01-31 23:48:08,827 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Shared/_Layout.css?v=uq7unI_U0xZr0Pbyzeu6KfbJKHVFuv0wNJ4CrrhQknw  
+INFO  2020-01-31 23:48:08,833 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/morris.js/morris.css?v=szHusaozbQctTn4FX-3l5E0A5zoxz7-ne4fr8NgWJlw  
+INFO  2020-01-31 23:48:08,839 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2020-01-31 23:48:08,842 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/css/bootstrap-select.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\bootstrap-select\dist\css\bootstrap-select.css'
+INFO  2020-01-31 23:48:08,852 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user.png'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\images\user.png'
+INFO  2020-01-31 23:48:08,855 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.6534ms 200 text/css
+INFO  2020-01-31 23:48:08,858 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.0308ms 200 text/css
+INFO  2020-01-31 23:48:08,861 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.0982ms 200 image/png
+INFO  2020-01-31 23:48:08,865 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Shared/_Layout.js?v=jOYc7_5N1zFKt3qTihQ-9Kc0wjSMXkAeHUXNyvn8sYo  
+INFO  2020-01-31 23:48:08,868 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637161112345434137  
+INFO  2020-01-31 23:48:08,871 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/push.js/push.js?v=HDxbpm8oBKwe1bmX9Z1SahYYA7zEbc1dk7LfopvOvoE  
+INFO  2020-01-31 23:48:08,874 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/themes/all-themes.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\css\themes\all-themes.css'
+INFO  2020-01-31 23:48:08,876 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap-select/dist/js/bootstrap-select.js?v=_KDPX2Vvqq8sySMxlLNJxt9j6Cmb8i_xp602ozhYxzI  
+INFO  2020-01-31 23:48:08,880 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.css'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\morris.js\morris.css'
+INFO  2020-01-31 23:48:08,887 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.js'
+INFO  2020-01-31 23:48:08,893 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.8105ms 200 text/css
+INFO  2020-01-31 23:48:08,898 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.6525ms 200 application/javascript
+INFO  2020-01-31 23:48:08,904 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/push.js/push.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\push.js\push.js'
+INFO  2020-01-31 23:48:08,906 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/signalr-client/signalr.min.js?v=DeOex_tR7FzkV208FN2wnFJvIUIKXWsVjbW0171naJo  
+INFO  2020-01-31 23:48:08,908 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.9232ms 200 application/javascript
+INFO  2020-01-31 23:48:08,913 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637161112345434137  
+INFO  2020-01-31 23:48:08,914 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/js/bootstrap-select.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\bootstrap-select\dist\js\bootstrap-select.js'
+INFO  2020-01-31 23:48:08,918 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=_FHCx1vN5Nr3emmw6PoYd2V2Ovvn3C7SsGb6X11KtWs  
+INFO  2020-01-31 23:48:08,921 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.1097ms 200 text/css
+INFO  2020-01-31 23:48:08,924 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.1153ms 200 application/javascript
+INFO  2020-01-31 23:48:08,927 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-slimscroll/jquery.slimscroll.js?v=4K6ZHzwMYR5_eU2SeDIaByus_qki9IFY8hmxl5U6D1Y  
+INFO  2020-01-31 23:48:08,930 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2020-01-31 23:48:08,937 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/signalr-client/signalr.min.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\signalr-client\signalr.min.js'
+INFO  2020-01-31 23:48:08,939 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.6195ms 200 application/javascript
+INFO  2020-01-31 23:48:08,941 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-countTo/jquery.countTo.js?v=AGGYFLOyVnIKn_2UCDl9D_5VWf8wHWCOtm9YU0P9g6I  
+INFO  2020-01-31 23:48:08,944 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/raphael/raphael.js?v=MPXjTSEImVJI1834JAHubdK7Lts1VTUPJmCQ9zKAjyA  
+INFO  2020-01-31 23:48:08,949 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 42.3326ms 200 application/javascript
+INFO  2020-01-31 23:48:08,954 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-31 23:48:08,955 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/images/user-img-background.jpg  
+INFO  2020-01-31 23:48:08,960 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-countTo/jquery.countTo.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\jquery-countTo\jquery.countTo.js'
+INFO  2020-01-31 23:48:08,962 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-slimscroll/jquery.slimscroll.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\jquery-slimscroll\jquery.slimscroll.js'
+INFO  2020-01-31 23:48:08,964 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 34.3418ms 200 application/javascript
+INFO  2020-01-31 23:48:08,967 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.5101ms 200 application/javascript
+INFO  2020-01-31 23:48:08,973 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-31 23:48:08,974 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/chart.js/dist/Chart.bundle.js?v=TQAtDUIU_0XtXZLNjMBV8noK8jNSngwHlgtC_PvsRAk  
+INFO  2020-01-31 23:48:08,980 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-31 23:48:08,991 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/morris.js/morris.js?v=cQB75DEaDbn4oSiaWgdoh3TuZCHSO-kYdD_Ehka48Ro  
+INFO  2020-01-31 23:48:09,002 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-31 23:48:09,013 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-31 23:48:09,017 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/raphael/raphael.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\raphael\raphael.js'
+INFO  2020-01-31 23:48:09,024 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user-img-background.jpg'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\images\user-img-background.jpg'
+INFO  2020-01-31 23:48:09,028 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 77.3082ms 200 application/javascript
+INFO  2020-01-31 23:48:09,031 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 43.6293ms
+INFO  2020-01-31 23:48:09,035 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/Flot/jquery.flot.js?v=t7kx8nPDixJ3ucbB9OBcTsCYhaSHvdrzJ54tfkmjjhI  
+INFO  2020-01-31 23:48:09,038 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 81.8306ms 200 image/jpeg
+INFO  2020-01-31 23:48:09,041 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-31 23:48:09,045 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\morris.js\morris.js'
+INFO  2020-01-31 23:48:09,048 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 149.1324ms 200 application/x-javascript
+INFO  2020-01-31 23:48:09,052 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+INFO  2020-01-31 23:48:09,055 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/Flot/jquery.flot.resize.js?v=i59RRvMkqw-28mDu6YRzKo77gmM7k9aPZMtcw45wgu4  
+INFO  2020-01-31 23:48:09,059 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 77.1585ms 200 application/javascript
+INFO  2020-01-31 23:48:09,061 [34   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/chart.js/dist/Chart.bundle.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\chart.js\dist\Chart.bundle.js'
+INFO  2020-01-31 23:48:09,067 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/Flot/jquery.flot.categories.js?v=boFmSyjqeVxzSQb0qhVhRkCnWsf705mn-5CEBAaYNRo  
+INFO  2020-01-31 23:48:09,070 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 97.9679ms 200 application/javascript
+INFO  2020-01-31 23:48:09,075 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.resize.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\Flot\jquery.flot.resize.js'
+INFO  2020-01-31 23:48:09,079 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/Flot/jquery.flot.pie.js?v=RsEWYd9gdLG1bCIcU8j59Rkvf_1O7HtzoD1TRUs22cU  
+INFO  2020-01-31 23:48:09,083 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.4956ms 200 application/javascript
+INFO  2020-01-31 23:48:09,086 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.categories.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\Flot\jquery.flot.categories.js'
+INFO  2020-01-31 23:48:09,093 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-sparkline/dist/jquery.sparkline.js?v=k0LZZpXY4vJp6vbA5CL5bb20Ou0IO3Shz-J6U6Vq56c  
+INFO  2020-01-31 23:48:09,096 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.pie.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\Flot\jquery.flot.pie.js'
+INFO  2020-01-31 23:48:09,099 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.2031ms 200 application/javascript
+INFO  2020-01-31 23:48:09,102 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.7158ms 200 application/javascript
+INFO  2020-01-31 23:48:09,106 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Home/Index.js?v=tRGDdqeVjO63iaO1qvGPpKF2NuT2riEOyYovlY_otk0  
+INFO  2020-01-31 23:48:09,109 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\Flot\jquery.flot.js'
+INFO  2020-01-31 23:48:09,114 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-sparkline/dist/jquery.sparkline.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\jquery-sparkline\dist\jquery.sparkline.js'
+INFO  2020-01-31 23:48:09,118 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2'
+INFO  2020-01-31 23:48:09,122 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Home/Index.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\view-resources\Views\Home\Index.js'
+INFO  2020-01-31 23:48:09,124 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.5043ms 200 application/javascript
+INFO  2020-01-31 23:48:09,126 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 75.5903ms 200 font/woff2
+INFO  2020-01-31 23:48:09,129 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.7955ms 200 application/javascript
+INFO  2020-01-31 23:48:09,131 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 81.3409ms 200 application/javascript
+INFO  2020-01-31 23:48:09,134 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/Flot/jquery.flot.time.js?v=pYLIMq3HE4prBar2HxbrrCdHAfG-Sv6nfnOaHDS5xBo  
+INFO  2020-01-31 23:48:09,137 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.time.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\lib\Flot\jquery.flot.time.js'
+INFO  2020-01-31 23:48:09,140 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.3306ms 200 application/javascript
+INFO  2020-01-31 23:48:09,161 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-31 23:48:09,164 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 158.7094ms
+INFO  2020-01-31 23:48:09,169 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-31 23:48:09,172 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 311.4551ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-31 23:48:09,191 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-01-31 23:48:09,198 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-01-31 23:48:09,221 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-01-31 23:48:09,224 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.7562ms 200 application/json
+INFO  2020-01-31 23:48:09,238 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=GBqiiqXf-7RrTIhoBgBDOw  
+INFO  2020-01-31 23:48:09,247 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-01-31 23:48:09,377 [28   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"GBqiiqXf-7RrTIhoBgBDOw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-01-31T23:48:09.3718106+01:00","Properties":{}}
+DEBUG 2020-01-31 23:48:09,388 [28   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: GBqiiqXf-7RrTIhoBgBDOw
+INFO  2020-01-31 23:48:21,133 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+INFO  2020-01-31 23:48:21,142 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.1794ms 404 
+INFO  2020-01-31 23:48:25,216 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/Account/Login?ReturnUrl=%2F  
+INFO  2020-01-31 23:48:25,224 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:48:25,227 [36   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller PhoneGames.Web.Controllers.AccountController (PhoneGames.Web.Mvc).
+INFO  2020-01-31 23:48:27,498 [36   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-01-31 23:48:27,830 [36   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 332.2976ms.
+INFO  2020-01-31 23:48:27,833 [36   ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc) in 2603.2833ms
+INFO  2020-01-31 23:48:27,835 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:48:27,839 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2623.136ms 200 text/html; charset=utf-8
+DEBUG 2020-01-31 23:48:27,848 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: GBqiiqXf-7RrTIhoBgBDOw
+INFO  2020-01-31 23:48:27,872 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637161113078278013  
+INFO  2020-01-31 23:48:27,877 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-01-31 23:48:27,880 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.1854ms 200 application/javascript
+INFO  2020-01-31 23:48:27,889 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-01-31 23:48:27,892 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18653.3348ms 101 
+DEBUG 2020-01-31 23:49:24,724 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-31 23:49:24,779 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-31 23:49:24,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.Web.Startup.PhoneGamesWebMvcModule, PhoneGames.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesWebCoreModule, PhoneGames.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesApplicationModule, PhoneGames.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesCoreModule, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.EntityFrameworkCore.PhoneGamesEntityFrameworkModule, PhoneGames.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:24,798 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-31 23:49:24,856 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:49:24,857 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:49:24,857 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneGames (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:49:24,857 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:49:25,161 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PhoneGames.EntityFrameworkCore.PhoneGamesDbContext, PhoneGames.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:49:25,964 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-31 23:49:26,036 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-31 23:49:26,110 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-31 23:49:26,140 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneGames
+DEBUG 2020-01-31 23:49:26,202 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-31 23:49:26,384 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-31 23:49:26,492 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[PhoneGames.MultiTenancy.Tenant, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PhoneGames.Authorization.Users.User, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-31 23:49:26,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2020-01-31 23:49:26,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-31 23:49:26,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Users.Dto.CreateUserDto
+DEBUG 2020-01-31 23:49:26,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Users.Dto.UserDto
+DEBUG 2020-01-31 23:49:26,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-31 23:49:26,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-31 23:49:26,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Roles.Dto.PermissionDto
+DEBUG 2020-01-31 23:49:26,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-31 23:49:26,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.MultiTenancy.Dto.TenantDto
+DEBUG 2020-01-31 23:49:26,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Business.Questions.QuestionDto
+DEBUG 2020-01-31 23:49:26,538 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-01-31 23:49:26,538 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-01-31 23:49:38,507 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-01-31 23:49:38,752 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Maciolek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-01-31 23:49:42,047 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+INFO  2020-01-31 23:49:45,173 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3126.7678ms 404 
+INFO  2020-01-31 23:49:48,835 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/Account/Login?ReturnUrl=%2F  
+INFO  2020-01-31 23:49:48,848 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:49:49,081 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller PhoneGames.Web.Controllers.AccountController (PhoneGames.Web.Mvc).
+INFO  2020-01-31 23:49:53,199 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-01-31 23:49:56,255 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 3058.2362ms.
+INFO  2020-01-31 23:49:56,260 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc) in 7176.9869ms
+INFO  2020-01-31 23:49:56,263 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:49:56,271 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7436.6869ms 200 text/html; charset=utf-8
+INFO  2020-01-31 23:49:56,283 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637161113664935930  
+INFO  2020-01-31 23:49:56,291 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637161113962468507  
+INFO  2020-01-31 23:49:56,294 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637161113664935930  
+INFO  2020-01-31 23:49:56,302 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-31 23:49:56,304 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-31 23:49:56,341 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-01-31 23:49:56,343 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.1915ms 200 application/javascript
+INFO  2020-01-31 23:49:56,346 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-31 23:49:56,356 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-31 23:49:56,423 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-31 23:49:56,426 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 67.3874ms
+INFO  2020-01-31 23:49:56,427 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-31 23:49:56,429 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 147.8469ms 200 application/x-javascript
+INFO  2020-01-31 23:49:56,940 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-31 23:49:56,943 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 594.7398ms
+INFO  2020-01-31 23:49:56,945 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-31 23:49:56,948 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 657.0017ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-31 23:50:01,721 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/Account/TenantChangeModal application/json 0
+INFO  2020-01-31 23:50:01,729 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Controllers.AccountController.TenantChangeModal (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:50:01,735 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "TenantChangeModal", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] TenantChangeModal() on controller PhoneGames.Web.Controllers.AccountController (PhoneGames.Web.Mvc).
+INFO  2020-01-31 23:50:01,901 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view /Views/Shared/Components/TenantChange/_ChangeModal.cshtml.
+INFO  2020-01-31 23:50:01,930 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view /Views/Shared/Components/TenantChange/_ChangeModal.cshtml executed in 30.3335ms.
+INFO  2020-01-31 23:50:01,933 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Controllers.AccountController.TenantChangeModal (PhoneGames.Web.Mvc) in 195.6782ms
+INFO  2020-01-31 23:50:01,935 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Controllers.AccountController.TenantChangeModal (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:50:01,938 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 217.0061ms 200 text/html; charset=utf-8
+INFO  2020-01-31 23:50:01,944 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Shared/Components/TenantChange/_ChangeModal.js?v=hmHSYtMojzazzqqmf27Tp_nH9t7x9oPK09sHzpG4ytg  
+INFO  2020-01-31 23:50:01,946 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/_ChangeModal.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\_ChangeModal.js'
+INFO  2020-01-31 23:50:01,948 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.5997ms 200 application/javascript
+INFO  2020-01-31 23:50:04,479 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/api/services/app/Account/IsTenantAvailable application/json 25
+INFO  2020-01-31 23:50:04,489 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Authorization.Accounts.AccountAppService.IsTenantAvailable (PhoneGames.Application)'
+INFO  2020-01-31 23:50:04,497 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[PhoneGames.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(PhoneGames.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller PhoneGames.Authorization.Accounts.AccountAppService (PhoneGames.Application).
+INFO  2020-01-31 23:50:04,832 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-31 23:50:04,844 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Authorization.Accounts.AccountAppService.IsTenantAvailable (PhoneGames.Application) in 344.5476ms
+INFO  2020-01-31 23:50:04,847 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Authorization.Accounts.AccountAppService.IsTenantAvailable (PhoneGames.Application)'
+INFO  2020-01-31 23:50:04,850 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 370.4314ms 200 application/json; charset=utf-8
+INFO  2020-01-31 23:50:04,876 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/Account/Login?ReturnUrl=%2F  
+INFO  2020-01-31 23:50:04,966 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:50:04,969 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller PhoneGames.Web.Controllers.AccountController (PhoneGames.Web.Mvc).
+INFO  2020-01-31 23:50:05,047 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-01-31 23:50:05,126 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 80.5705ms.
+INFO  2020-01-31 23:50:05,128 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc) in 157.8142ms
+INFO  2020-01-31 23:50:05,130 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:50:05,133 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 256.8738ms 200 text/html; charset=utf-8
+INFO  2020-01-31 23:50:05,156 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+INFO  2020-01-31 23:50:05,158 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+INFO  2020-01-31 23:50:05,165 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/css/bootstrap.css?v=fmMNkMcjSw3xcp9iuPnku_ryk9kaWgrEbfJfKmdZ45o  
+INFO  2020-01-31 23:50:05,170 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2020-01-31 23:50:05,172 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+INFO  2020-01-31 23:50:05,175 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/font-awesome/css/font-awesome.css?v=NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w  
+INFO  2020-01-31 23:50:05,178 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.css was not modified
+INFO  2020-01-31 23:50:05,180 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/roboto.css was not modified
+INFO  2020-01-31 23:50:05,181 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/famfamfam-flags/dist/sprite/famfamfam-flags.css was not modified
+INFO  2020-01-31 23:50:05,184 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/material-icons/materialicons.css was not modified
+INFO  2020-01-31 23:50:05,187 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+INFO  2020-01-31 23:50:05,189 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 39.2793ms 304 text/css
+INFO  2020-01-31 23:50:05,193 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.849ms 304 text/css
+INFO  2020-01-31 23:50:05,194 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.8321ms 304 text/css
+INFO  2020-01-31 23:50:05,196 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.5927ms 304 text/css
+INFO  2020-01-31 23:50:05,198 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2020-01-31 23:50:05,199 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/css/style.css?v=151KUrNx-cFGpjXC7QZ8WbWSo-mQTLO0htvGyBUR_i8  
+INFO  2020-01-31 23:50:05,203 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+INFO  2020-01-31 23:50:05,205 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2020-01-31 23:50:05,207 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Waves/dist/waves.css was not modified
+INFO  2020-01-31 23:50:05,209 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/materialize.css was not modified
+INFO  2020-01-31 23:50:05,212 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.2523ms 304 text/css
+INFO  2020-01-31 23:50:05,214 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/animate.css/animate.css was not modified
+INFO  2020-01-31 23:50:05,216 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style.css was not modified
+INFO  2020-01-31 23:50:05,218 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.2965ms 304 text/css
+INFO  2020-01-31 23:50:05,222 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.5218ms 304 text/css
+INFO  2020-01-31 23:50:05,224 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.7521ms 304 text/css
+INFO  2020-01-31 23:50:05,226 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2020-01-31 23:50:05,228 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Account/Login.css?v=j_16MTiQNlUrKdjTrCjLCSGkIIjHvt8tFUyucW02Vqw  
+INFO  2020-01-31 23:50:05,229 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/dist/js/bootstrap.js?v=Cr6N6zNN4bp0OwTQOZ6Z66M2r-2dpy_EwKMCyZ-SOMg  
+INFO  2020-01-31 23:50:05,231 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/dist/jquery.js?v=DZAnKJ_6XZ9si04Hgrsxu_8s717jcIzLy3oi35EouyE  
+INFO  2020-01-31 23:50:05,234 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/json2/json2.js was not modified
+INFO  2020-01-31 23:50:05,236 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/Login.css was not modified
+INFO  2020-01-31 23:50:05,239 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.0744ms 304 application/javascript
+INFO  2020-01-31 23:50:05,241 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.5211ms 304 text/css
+INFO  2020-01-31 23:50:05,244 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+INFO  2020-01-31 23:50:05,245 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery/dist/jquery.js was not modified
+INFO  2020-01-31 23:50:05,250 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2020-01-31 23:50:05,253 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.9802ms 304 text/css
+INFO  2020-01-31 23:50:05,255 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.951ms 304 application/javascript
+INFO  2020-01-31 23:50:05,257 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.4794ms 304 application/javascript
+INFO  2020-01-31 23:50:05,259 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2020-01-31 23:50:05,261 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-01-31 23:50:05,262 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2020-01-31 23:50:05,264 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/moment/min/moment-with-locales.js was not modified
+INFO  2020-01-31 23:50:05,267 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-validation/dist/jquery.validate.js was not modified
+INFO  2020-01-31 23:50:05,272 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Account/_Layout.css?v=vIEtxnpR3ZrYbYcueRr_mJ9XuJJzDprh4sMCwvRBcqk  
+INFO  2020-01-31 23:50:05,275 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/blockUI/jquery.blockUI.js was not modified
+INFO  2020-01-31 23:50:05,276 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.js was not modified
+INFO  2020-01-31 23:50:05,279 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.8743ms 304 application/javascript
+INFO  2020-01-31 23:50:05,281 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.6068ms 304 application/javascript
+INFO  2020-01-31 23:50:05,283 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.805ms 304 application/javascript
+INFO  2020-01-31 23:50:05,285 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.5537ms 304 application/javascript
+INFO  2020-01-31 23:50:05,287 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637161114051249098  
+INFO  2020-01-31 23:50:05,289 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2020-01-31 23:50:05,291 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2020-01-31 23:50:05,292 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+INFO  2020-01-31 23:50:05,294 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/_Layout.css was not modified
+INFO  2020-01-31 23:50:05,296 [15   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/font-awesome/css/font-awesome.css was not modified
+INFO  2020-01-31 23:50:05,302 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/spin.js/jquery.spin.js was not modified
+INFO  2020-01-31 23:50:05,302 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/spin.js/spin.js was not modified
+INFO  2020-01-31 23:50:05,306 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-01-31 23:50:05,308 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/sweetalert/dist/sweetalert.min.js was not modified
+INFO  2020-01-31 23:50:05,311 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.2486ms 200 application/javascript
+INFO  2020-01-31 23:50:05,314 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.6113ms 304 application/javascript
+INFO  2020-01-31 23:50:05,316 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=mLVaqTdgmMkoUuTaMxkIT7FgiZPW2P-xdBb4DkRpaLg  
+INFO  2020-01-31 23:50:05,319 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.6016ms 304 application/javascript
+INFO  2020-01-31 23:50:05,321 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2020-01-31 23:50:05,325 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.5097ms 304 application/javascript
+INFO  2020-01-31 23:50:05,326 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=AIxxwaH93t7AYkWS4FNTrN_L5q-wzWUsYG570rq1Y8k  
+INFO  2020-01-31 23:50:05,328 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/abp.js was not modified
+INFO  2020-01-31 23:50:05,330 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2020-01-31 23:50:05,332 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.4831ms 304 text/css
+INFO  2020-01-31 23:50:05,334 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 127.7201ms 304 text/css
+INFO  2020-01-31 23:50:05,336 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.5796ms 304 application/javascript
+INFO  2020-01-31 23:50:05,337 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js was not modified
+INFO  2020-01-31 23:50:05,339 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js was not modified
+INFO  2020-01-31 23:50:05,340 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+INFO  2020-01-31 23:50:05,342 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js was not modified
+INFO  2020-01-31 23:50:05,344 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.5793ms 304 application/javascript
+INFO  2020-01-31 23:50:05,347 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.9546ms 304 application/javascript
+INFO  2020-01-31 23:50:05,349 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2 was not modified
+INFO  2020-01-31 23:50:05,353 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+INFO  2020-01-31 23:50:05,355 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/fonts/material-icons/materialicons.woff2  
+INFO  2020-01-31 23:50:05,358 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.6144ms 304 font/woff2
+INFO  2020-01-31 23:50:05,360 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.1663ms 304 application/javascript
+INFO  2020-01-31 23:50:05,363 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+INFO  2020-01-31 23:50:05,364 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/js/admin.js?v=_sUixSUZcmP81slFpHh9ygZ5nNihdHlHLkpoSCncHCw  
+INFO  2020-01-31 23:50:05,368 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/material-icons/materialicons.woff2 was not modified
+INFO  2020-01-31 23:50:05,371 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2 was not modified
+INFO  2020-01-31 23:50:05,373 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=2VvE8Jbf50Cd7Yd-VlY2oYUZTfdiP1SAvURmx87Ri_Q  
+INFO  2020-01-31 23:50:05,380 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/admin.js was not modified
+INFO  2020-01-31 23:50:05,382 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.0551ms 304 font/woff2
+INFO  2020-01-31 23:50:05,390 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.5649ms 304 font/woff2
+INFO  2020-01-31 23:50:05,392 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.082ms 304 application/javascript
+INFO  2020-01-31 23:50:05,394 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/js/main.js?v=iBvXTJpqherRadHUVLlTzdL0_pbD0-cWq4WR3Dzc1Ck  
+INFO  2020-01-31 23:50:05,395 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637161113664935930  
+INFO  2020-01-31 23:50:05,397 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637161113664935930  
+INFO  2020-01-31 23:50:05,399 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js was not modified
+INFO  2020-01-31 23:50:05,402 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Waves/dist/waves.js was not modified
+INFO  2020-01-31 23:50:05,406 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=dszx0Rlkfh-sesXfVgzFwj2P6eXRPLA9cT64qMtAkG4  
+INFO  2020-01-31 23:50:05,408 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/main.js was not modified
+INFO  2020-01-31 23:50:05,410 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.3635ms 304 application/javascript
+INFO  2020-01-31 23:50:05,412 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.926ms 304 application/javascript
+INFO  2020-01-31 23:50:05,414 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.4872ms 304 application/javascript
+INFO  2020-01-31 23:50:05,416 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Account/Login.js?v=o2PUQBkwW7VjtzD5RNxKPa3oShr3fMFHds_2dwIAV5M  
+INFO  2020-01-31 23:50:05,419 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-01-31 23:50:05,422 [15   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js was not modified
+INFO  2020-01-31 23:50:05,423 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/Login.js was not modified
+INFO  2020-01-31 23:50:05,427 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/famfamfam-flags/dist/sprite/famfamfam-flags.png was not modified
+INFO  2020-01-31 23:50:05,428 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.2527ms 304 application/javascript
+INFO  2020-01-31 23:50:05,430 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 88.0756ms 304 application/javascript
+INFO  2020-01-31 23:50:05,432 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.9377ms 304 image/png
+INFO  2020-01-31 23:50:05,437 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-31 23:50:05,440 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-31 23:50:05,442 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-31 23:50:05,444 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-31 23:50:05,447 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-31 23:50:05,450 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.9276ms
+INFO  2020-01-31 23:50:05,455 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-31 23:50:05,457 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.5311ms 200 application/x-javascript
+INFO  2020-01-31 23:50:05,470 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-31 23:50:05,473 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 30.4042ms
+INFO  2020-01-31 23:50:05,476 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-31 23:50:05,478 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 83.3107ms 200 application/x-javascript; charset=utf-8
+INFO  2020-01-31 23:50:07,409 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/Account/TenantChangeModal application/json 0
+INFO  2020-01-31 23:50:07,416 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Controllers.AccountController.TenantChangeModal (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:50:07,421 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "TenantChangeModal", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] TenantChangeModal() on controller PhoneGames.Web.Controllers.AccountController (PhoneGames.Web.Mvc).
+INFO  2020-01-31 23:50:09,406 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view /Views/Shared/Components/TenantChange/_ChangeModal.cshtml.
+INFO  2020-01-31 23:50:09,412 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view /Views/Shared/Components/TenantChange/_ChangeModal.cshtml executed in 5.6661ms.
+INFO  2020-01-31 23:50:09,414 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Controllers.AccountController.TenantChangeModal (PhoneGames.Web.Mvc) in 1990.2249ms
+INFO  2020-01-31 23:50:09,417 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Controllers.AccountController.TenantChangeModal (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:50:09,421 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2011.8458ms 200 text/html; charset=utf-8
+INFO  2020-01-31 23:50:11,748 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/api/services/app/Account/IsTenantAvailable application/json 25
+INFO  2020-01-31 23:50:11,756 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Authorization.Accounts.AccountAppService.IsTenantAvailable (PhoneGames.Application)'
+INFO  2020-01-31 23:50:11,759 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[PhoneGames.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(PhoneGames.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller PhoneGames.Authorization.Accounts.AccountAppService (PhoneGames.Application).
+INFO  2020-01-31 23:50:15,257 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-31 23:50:15,261 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Authorization.Accounts.AccountAppService.IsTenantAvailable (PhoneGames.Application) in 3498.9109ms
+INFO  2020-01-31 23:50:15,263 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Authorization.Accounts.AccountAppService.IsTenantAvailable (PhoneGames.Application)'
+INFO  2020-01-31 23:50:15,266 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3518.2619ms 200 application/json; charset=utf-8
+INFO  2020-01-31 23:50:15,277 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/Account/Login?ReturnUrl=%2F  
+INFO  2020-01-31 23:50:15,288 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:50:15,293 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller PhoneGames.Web.Controllers.AccountController (PhoneGames.Web.Mvc).
+INFO  2020-01-31 23:50:15,877 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-01-31 23:50:16,428 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 550.4609ms.
+INFO  2020-01-31 23:50:16,436 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc) in 1140.1891ms
+INFO  2020-01-31 23:50:16,440 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Controllers.AccountController.Login (PhoneGames.Web.Mvc)'
+INFO  2020-01-31 23:50:16,443 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1167.5573ms 200 text/html; charset=utf-8
+INFO  2020-01-31 23:50:16,477 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637161113664935930  
+INFO  2020-01-31 23:50:16,483 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637161114164248173  
+INFO  2020-01-31 23:50:16,487 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637161113664935930  
+INFO  2020-01-31 23:50:16,491 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-01-31 23:50:16,493 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.4665ms 200 application/javascript
+INFO  2020-01-31 23:50:16,498 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-31 23:50:16,501 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-31 23:50:16,506 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-01-31 23:50:16,508 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-01-31 23:50:16,535 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-01-31 23:50:16,540 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 29.7766ms
+INFO  2020-01-31 23:50:16,543 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-01-31 23:50:16,545 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 68.0987ms 200 application/x-javascript
+INFO  2020-01-31 23:50:16,558 [28   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-01-31 23:50:16,561 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 50.1224ms
+INFO  2020-01-31 23:50:16,563 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-01-31 23:50:16,566 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 79.5723ms 200 application/x-javascript; charset=utf-8

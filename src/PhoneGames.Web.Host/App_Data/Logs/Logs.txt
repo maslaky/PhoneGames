@@ -1,0 +1,133 @@
+DEBUG 2020-01-31 23:39:36,736 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-31 23:39:37,013 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-31 23:39:37,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.Web.Host.Startup.PhoneGamesWebHostModule, PhoneGames.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesWebCoreModule, PhoneGames.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesApplicationModule, PhoneGames.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesCoreModule, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.EntityFrameworkCore.PhoneGamesEntityFrameworkModule, PhoneGames.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:37,054 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-31 23:39:37,267 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:39:37,267 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:39:37,267 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneGames (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:39:37,267 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:39:37,796 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PhoneGames.EntityFrameworkCore.PhoneGamesDbContext, PhoneGames.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:39:38,793 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-31 23:39:38,884 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-31 23:39:38,966 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-31 23:39:38,997 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneGames
+DEBUG 2020-01-31 23:39:39,051 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-31 23:39:39,267 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-31 23:39:39,399 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[PhoneGames.MultiTenancy.Tenant, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PhoneGames.Authorization.Users.User, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-31 23:39:39,443 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2020-01-31 23:39:39,443 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-31 23:39:39,448 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Users.Dto.CreateUserDto
+DEBUG 2020-01-31 23:39:39,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Users.Dto.UserDto
+DEBUG 2020-01-31 23:39:39,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-31 23:39:39,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-31 23:39:39,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Roles.Dto.PermissionDto
+DEBUG 2020-01-31 23:39:39,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-31 23:39:39,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.MultiTenancy.Dto.TenantDto
+DEBUG 2020-01-31 23:39:39,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Business.Questions.QuestionDto
+INFO  2020-01-31 23:39:42,731 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-01-31 23:39:43,259 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Maciolek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-01-31 23:39:49,287 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2020-01-31 23:39:49,487 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Host.Controllers.HomeController.Index (PhoneGames.Web.Host)'
+INFO  2020-01-31 23:39:52,374 [17   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller PhoneGames.Web.Host.Controllers.HomeController (PhoneGames.Web.Host).
+INFO  2020-01-31 23:39:53,505 [17   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-01-31 23:39:53,512 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Host.Controllers.HomeController.Index (PhoneGames.Web.Host) in 1132.3698ms
+INFO  2020-01-31 23:39:53,514 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Host.Controllers.HomeController.Index (PhoneGames.Web.Host)'
+INFO  2020-01-31 23:39:53,522 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4236.4588ms 302 
+INFO  2020-01-31 23:39:53,561 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/swagger  
+INFO  2020-01-31 23:39:53,580 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.8105ms 301 
+INFO  2020-01-31 23:39:53,585 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+INFO  2020-01-31 23:39:53,702 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 117.3438ms 200 text/html;charset=utf-8
+INFO  2020-01-31 23:39:53,751 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css  
+INFO  2020-01-31 23:39:53,766 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js  
+INFO  2020-01-31 23:39:53,768 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-01-31 23:39:53,804 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-01-31 23:39:53,805 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.7801ms 200 text/css
+INFO  2020-01-31 23:39:53,807 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/swagger/ui/abp.js  
+INFO  2020-01-31 23:39:53,819 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-01-31 23:39:53,821 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-01-31 23:39:53,823 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.58ms 200 application/javascript
+INFO  2020-01-31 23:39:53,826 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/swagger/ui/abp.swagger.js  
+INFO  2020-01-31 23:39:53,830 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.9323ms 200 application/javascript
+INFO  2020-01-31 23:39:53,846 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-01-31 23:39:53,850 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 83.4923ms 200 application/javascript
+INFO  2020-01-31 23:39:53,854 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\Maciolek\RiderProjects\PhoneGames\src\PhoneGames.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-01-31 23:39:53,856 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.358ms 200 application/javascript
+INFO  2020-01-31 23:39:54,834 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AntiForgery/SetCookie  
+INFO  2020-01-31 23:39:54,885 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png  
+INFO  2020-01-31 23:39:54,889 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-01-31 23:39:54,891 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.9916ms 200 image/png
+INFO  2020-01-31 23:39:54,949 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-01-31 23:39:55,116 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Host.Controllers.AntiForgeryController.SetCookie (PhoneGames.Web.Host)'
+INFO  2020-01-31 23:39:55,124 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller PhoneGames.Web.Host.Controllers.AntiForgeryController (PhoneGames.Web.Host).
+INFO  2020-01-31 23:39:55,212 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-31 23:39:55,227 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Host.Controllers.AntiForgeryController.SetCookie (PhoneGames.Web.Host) in 100.7636ms
+INFO  2020-01-31 23:39:55,229 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Host.Controllers.AntiForgeryController.SetCookie (PhoneGames.Web.Host)'
+INFO  2020-01-31 23:39:55,231 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 397.3693ms 200 application/json; charset=utf-8
+INFO  2020-01-31 23:40:17,689 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AntiForgery/SetCookie  
+INFO  2020-01-31 23:40:17,694 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-01-31 23:40:17,697 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneGames.Web.Host.Controllers.AntiForgeryController.SetCookie (PhoneGames.Web.Host)'
+INFO  2020-01-31 23:40:17,703 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller PhoneGames.Web.Host.Controllers.AntiForgeryController (PhoneGames.Web.Host).
+INFO  2020-01-31 23:40:17,785 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-31 23:40:17,787 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action PhoneGames.Web.Host.Controllers.AntiForgeryController.SetCookie (PhoneGames.Web.Host) in 82.5124ms
+INFO  2020-01-31 23:40:17,789 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneGames.Web.Host.Controllers.AntiForgeryController.SetCookie (PhoneGames.Web.Host)'
+INFO  2020-01-31 23:40:17,791 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 102.6929ms 200 application/json; charset=utf-8
+DEBUG 2020-01-31 23:40:25,612 [2    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-01-31 23:40:25,613 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-31 23:40:25,613 [2    ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[PhoneGames.MultiTenancy.Tenant, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PhoneGames.Authorization.Users.User, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-31 23:40:25,614 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-31 23:40:25,614 [2    ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[PhoneGames.MultiTenancy.Tenant, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PhoneGames.Authorization.Users.User, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-31 23:40:25,614 [2    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-01-31 23:46:42,687 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-31 23:46:42,754 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-31 23:46:42,767 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.Web.Host.Startup.PhoneGamesWebHostModule, PhoneGames.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,768 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesWebCoreModule, PhoneGames.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,768 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesApplicationModule, PhoneGames.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,769 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.PhoneGamesCoreModule, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,769 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,769 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,769 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneGames.EntityFrameworkCore.PhoneGamesEntityFrameworkModule, PhoneGames.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:42,773 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-31 23:46:42,828 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:46:42,828 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:46:42,828 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneGames (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:46:42,828 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-31 23:46:43,112 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PhoneGames.EntityFrameworkCore.PhoneGamesDbContext, PhoneGames.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-31 23:46:43,801 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-31 23:46:43,878 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-31 23:46:43,953 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-31 23:46:43,983 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneGames
+DEBUG 2020-01-31 23:46:44,034 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-31 23:46:44,193 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-31 23:46:44,284 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[PhoneGames.MultiTenancy.Tenant, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PhoneGames.Authorization.Users.User, PhoneGames.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-31 23:46:44,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2020-01-31 23:46:44,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-31 23:46:44,340 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Users.Dto.CreateUserDto
+DEBUG 2020-01-31 23:46:44,341 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Users.Dto.UserDto
+DEBUG 2020-01-31 23:46:44,341 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-31 23:46:44,341 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-31 23:46:44,341 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Roles.Dto.PermissionDto
+DEBUG 2020-01-31 23:46:44,341 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-31 23:46:44,341 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.MultiTenancy.Dto.TenantDto
+DEBUG 2020-01-31 23:46:44,341 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneGames.Business.Questions.QuestionDto
