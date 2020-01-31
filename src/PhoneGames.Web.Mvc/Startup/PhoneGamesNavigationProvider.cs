@@ -44,8 +44,15 @@ namespace PhoneGames.Web.Startup
                         icon: "local_offer",
                         requiredPermissionName: PermissionNames.Pages_Roles
                     )
-                )
-                .AddItem(
+                ).AddItem(
+                    new MenuItemDefinition(
+                        PageNames.Questions,
+                        L("Questions"),
+                        url: "Questions",
+                        icon: "question_answer",
+                        requiredPermissionName: PermissionNames.Pages_Questions
+                    )
+                ).AddItem(
                     new MenuItemDefinition(
                         PageNames.About,
                         L("About"),

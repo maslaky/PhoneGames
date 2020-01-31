@@ -104,5 +104,7 @@
     <text name="UserDeleteWarningMessage">User {0} will be deleted.</text>
     <text name="RoleDeleteWarningMessage">Role {0} will be deleted and unassigned from all assigned users.</text>
     <text name="TenantDeleteWarningMessage">Tenant {0} will be deleted.</text>
+    <text name="Questions">Questions</text>
+    <text name="QuestionText">Text</text>
   </texts>
 </localizationDictionary>
