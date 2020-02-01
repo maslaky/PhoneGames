@@ -128,7 +128,11 @@ namespace PhoneGames.Web.Controllers
             if (gameInstance == null)
                 return Json(new AjaxResponse {Error = new ErrorInfo(this.L("Game with this code does not exist!"))});
 
-            return RedirectToAction(gameInstance.GameType.GameName,"Game", new {gameCode = joinGameViewModel.GameCode});
+            return RedirectToAction(gameInstance.GameType.GameName,"Game", new
+            {
+                gameCode = joinGameViewModel.GameCode,
+                userName = joinGameViewModel.UserName
+            });
         }
 
         public async Task<ActionResult> Logout()

@@ -43,8 +43,6 @@
     <PackageReference Include="Abp.Castle.Log4Net" Version="5.1.0" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Hubs\" />
-    <Folder Include="wwwroot\view-resources\Views\Games\" />
     <Folder Include="wwwroot\view-resources\Views\_Bundles\" />
     <Folder Include="wwwroot\view-resources\Views\_Bundles\" />
   </ItemGroup>

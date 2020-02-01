@@ -10,12 +10,13 @@ namespace PhoneGames.Web.Controllers
 {
     public class GameController : PhoneGamesControllerBase
     {
-        public IActionResult AnswerRepair(string gameCode, bool isGameOwner)
+        public IActionResult AnswerRepair(string gameCode, string userName, bool isGameOwner)
         {
-            var gameInstanceViewModel = new GameInstanceViewModel()
+            var gameInstanceViewModel = new GameInstanceViewModel
             {
                 GameCode = gameCode,
-                IsGameOwner = isGameOwner
+                IsGameOwner = isGameOwner,
+                UserName = userName
             };
 
             return View("AnswerRepair", gameInstanceViewModel);
