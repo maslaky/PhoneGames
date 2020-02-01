@@ -29,7 +29,7 @@
 <div class="col-lg-4">
     <div class="card" id="GameStartArea">
         <div class="body">
-            <form id="GameStartForm" asp-action="StartGame" method="post">
+            <form id="GameStartForm" asp-action="StartGame" method="post" asp-route-gameType="AnswerRepair">
                 <h4 class="text-center">@L("PhoneGame")</h4>
                 <button id="GameStartButton" class="btn btn-block bg-green waves-effect" type="submit">@L("GameStart")</button>
             </form>

@@ -1,5 +1,7 @@
 ﻿$(function () {
     //Widgets count
+    var $gameStartForm = $('#GameStartForm');
+    
     $('.count-to').countTo();
 
     //Sales count to
@@ -13,7 +15,18 @@
     initDonutChart();
     initSparkline();
     
-    // btn
+    $gameStartForm.submit(function (e) {
+        e.preventDefault();
+        abp.ui.setBusy(
+            $('#GameStartArea'),
+
+            abp.ajax({
+                contentType: 'application/x-www-form-urlencoded',
+                url: $gameStartForm.attr('action'),
+                data: $gameStartForm.serialize()
+            })
+        );
+    });
     
 });
 
