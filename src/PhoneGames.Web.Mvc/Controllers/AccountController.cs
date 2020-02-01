@@ -23,6 +23,7 @@ using Abp.Timing;
 using Abp.UI;
 using Abp.Web.Models;
 using Abp.Zero.Configuration;
+using Microsoft.EntityFrameworkCore;
 using PhoneGames.Authorization;
 using PhoneGames.Authorization.Users;
 using PhoneGames.Business.GameInstances;
@@ -118,12 +119,23 @@ namespace PhoneGames.Web.Controllers
         [UnitOfWork]
         public virtual async Task<JsonResult> JoinGame(JoinGameViewModel joinGameViewModel)
         {
-            var gameInstance = _gameInstancesRepository.FirstOrDefault(x => x.Code == joinGameViewModel.GameCode);
+            var gameInstance = _gameInstancesRepository
+                .GetAll()
+                .Include(_ => _.GameType)
+                .FirstOrDefault(x => x.Code == joinGameViewModel.GameCode);
 
             if (gameInstance == null)
                 return Json(new AjaxResponse {Error = new ErrorInfo(this.L("Game with this code does not exist!"))});
 
-            return Json(new AjaxResponse { TargetUrl = "/game-room" });
+            var targetUrl = "Game/";
+            switch (gameInstance.GameType.GameName)
+            {
+                case "PhoneGame":
+                    targetUrl += "AnswerRepair";
+                    break;
+            }
+
+            return Json(new AjaxResponse { TargetUrl = targetUrl });
         }
 
         public async Task<ActionResult> Logout()
