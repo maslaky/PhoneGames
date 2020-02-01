@@ -12,6 +12,7 @@ using Abp.Authorization;
 using Abp.Authorization.Users;
 using Abp.Configuration;
 using Abp.Configuration.Startup;
+using Abp.Domain.Repositories;
 using Abp.Domain.Uow;
 using Abp.Extensions;
 using Abp.MultiTenancy;
@@ -24,6 +25,7 @@ using Abp.Web.Models;
 using Abp.Zero.Configuration;
 using PhoneGames.Authorization;
 using PhoneGames.Authorization.Users;
+using PhoneGames.Business.GameInstances;
 using PhoneGames.Controllers;
 using PhoneGames.Identity;
 using PhoneGames.MultiTenancy;
@@ -46,6 +48,7 @@ namespace PhoneGames.Web.Controllers
         private readonly ISessionAppService _sessionAppService;
         private readonly ITenantCache _tenantCache;
         private readonly INotificationPublisher _notificationPublisher;
+        private readonly IRepository<GameInstance, long> _gameInstancesRepository;
 
         public AccountController(
             UserManager userManager,
@@ -58,7 +61,8 @@ namespace PhoneGames.Web.Controllers
             UserRegistrationManager userRegistrationManager,
             ISessionAppService sessionAppService,
             ITenantCache tenantCache,
-            INotificationPublisher notificationPublisher)
+            INotificationPublisher notificationPublisher,
+            IRepository<GameInstance, long> gameInstancesRepository)
         {
             _userManager = userManager;
             _multiTenancyConfig = multiTenancyConfig;
@@ -71,6 +75,7 @@ namespace PhoneGames.Web.Controllers
             _sessionAppService = sessionAppService;
             _tenantCache = tenantCache;
             _notificationPublisher = notificationPublisher;
+            _gameInstancesRepository = gameInstancesRepository;
         }
 
         #region Login / Logout
@@ -107,6 +112,18 @@ namespace PhoneGames.Web.Controllers
             await UnitOfWorkManager.Current.SaveChangesAsync();
 
             return Json(new AjaxResponse { TargetUrl = returnUrl });
+        }
+        
+        [HttpPost]
+        [UnitOfWork]
+        public virtual async Task<JsonResult> JoinGame(JoinGameViewModel joinGameViewModel)
+        {
+            var gameInstance = _gameInstancesRepository.FirstOrDefault(x => x.Code == joinGameViewModel.GameCode);
+
+            if (gameInstance == null)
+                return Json(new AjaxResponse {Error = new ErrorInfo(this.L("Game with this code does not exist!"))});
+
+            return Json(new AjaxResponse { TargetUrl = "/game-room" });
         }
 
         public async Task<ActionResult> Logout()

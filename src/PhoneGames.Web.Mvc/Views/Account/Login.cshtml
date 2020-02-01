@@ -23,6 +23,27 @@
         <script src="~/view-resources/Views/Account/Login.min.js" asp-append-version="true"></script>
     </environment>
 }
+
+<div class="card" id="GameJoinArea">
+    <div class="body">
+        <form id="GameJoinForm" asp-action="JoinGame" method="post">
+            <h4 class="text-center">@L("JoinGame")</h4>
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <i class="material-icons">play_arrow</i>
+                </span>
+                <div class="form-line">
+                    <input type="text" class="form-control" name="gameCode" placeholder="@L("GameCode")" autofocus maxlength="6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <button id="GameJoinButton" class="btn btn-block bg-green waves-effect" type="submit">@L("GameJoin")</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
 <div class="card" id="﻿LoginArea">
     <div class="body">
         <form id="LoginForm" asp-action="Login" method="post">
