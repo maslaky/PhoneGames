@@ -12,6 +12,9 @@
     initRealTimeChart();
     initDonutChart();
     initSparkline();
+    
+    // btn
+    
 });
 
 var realtime = 'on';

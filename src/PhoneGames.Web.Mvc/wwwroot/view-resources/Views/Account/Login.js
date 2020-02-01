@@ -2,6 +2,7 @@
     $('#ReturnUrlHash').val(location.hash);
 
     var $loginForm = $('#LoginForm');
+    var $gameJoinForm = $('#GameJoinForm');
 
     $loginForm.validate({
         highlight: function (input) {
@@ -29,6 +30,20 @@
                 contentType: 'application/x-www-form-urlencoded',
                 url: $loginForm.attr('action'),
                 data: $loginForm.serialize()
+            })
+        );
+    });
+    
+    $gameJoinForm.submit(function (e) {
+        e.preventDefault();
+
+        abp.ui.setBusy(
+            $('#GameJoinArea'),
+
+            abp.ajax({
+                contentType: 'application/x-www-form-urlencoded',
+                url: $gameJoinForm.attr('action'),
+                data: $gameJoinForm.serialize()
             })
         );
     });
