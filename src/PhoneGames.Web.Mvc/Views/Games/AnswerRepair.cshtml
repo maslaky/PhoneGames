@@ -1,0 +1,30 @@
+﻿@using Abp.Authorization.Users
+@using Abp.Extensions
+@using Abp.MultiTenancy
+@model PhoneGames.Web.Models.Account.LoginFormViewModel
+@section Styles
+{
+    <environment names="Development">
+        <link rel="stylesheet" href="~/view-resources/Views/Games/AnswerRepair.css" asp-append-version="true" />
+    </environment>
+
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="~/view-resources/Views/Games/AnswerRepair.min.css" asp-append-version="true" />
+    </environment>
+
+}
+@section Scripts
+{
+    <environment names="Development">
+        <script src="~/view-resources/Views/Games/AnswerRepair.js" asp-append-version="true"></script>
+    </environment>
+
+    <environment names="Staging,Production">
+        <script src="~/view-resources/Views/Games/AnswerRepair.min.js" asp-append-version="true"></script>
+    </environment>
+}
+
+
+<div id="GameArea">
+    WELCOME TO REPAIR GAME! :)
+</div>
